@@ -8,8 +8,11 @@
 #Hints:
 #Consider use range(#begin, #end) method
 for i in range(2000,3201):
+
     if i%7 == 0 and i%5!=0:
+    
         print(i,end=',')
+	
 print("\b")
 
 
@@ -28,7 +31,9 @@ print("\b")
 #Consider use dict()
 
 n = int(input("Enter the value of n: "))
+
 sqr = {i : i*i for i in range(1, n+1)}
+
 print(sqr)
 
 #Q3 Write a program that accepts sequence of lines as input and prints
@@ -44,12 +49,17 @@ print(sqr)
 from string import *
 
 lines = []
+
 print ("Enter sequence of lines: ")
 
 while True:
+
 	line = input(" ")
+	
 	if not line:
+	
 		break
+		
 	lines.append(line.upper())
 
 print(lines)
@@ -58,10 +68,15 @@ print(lines)
 #Else statement…
 
 number=int(input("Please Enter a Number : "));
+
 x=int(number/2)*2;
+
 if(x==number):
+
     print("This Number is Even")
+    
 else:
+
     print("This Number is Odd")
     
     
@@ -76,7 +91,9 @@ else:
 age = int(input('Enter the age'))
 
 if ((age>= 8) and (age<= 12)): 
+
 	print("YOU ARE ALLOWED. WELCOME !") 
+	
 else: 
 	print("SORRY ! YOU ARE NOT ALLOWED. BYE !") 
 
